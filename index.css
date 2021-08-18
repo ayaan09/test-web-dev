@@ -1,0 +1,82 @@
+body{
+  background-color: black;
+}
+.text{
+  font-size: 4rem;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  animation-name: letter;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+
+.circle{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 5px solid green;
+  margin-left: 620px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  animation-name: circleanimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.square{
+  height: 100px;
+  width: 100px;
+  border: 5px solid blue;
+  animation-name: square;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes circleanimation {
+  0%{
+    border-color: blue;
+    transform: scale(1);
+  }
+  25%{
+    border-color: green;
+    transform: scale(1.3);
+  }
+  50%{
+    border-color: gold;
+    transform: scale(1.5);
+  }
+  75%{
+    border-color: red;
+    transform: scale(1.3);
+  }
+  100%{
+    border-color: purple;
+    transform: scale(1);
+  }
+}
+
+
+
+@keyframes square {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes letter {
+  0%{
+    letter-spacing: 40px;
+  }
+  100%{
+    letter-spacing: 5px;
+  }
+}

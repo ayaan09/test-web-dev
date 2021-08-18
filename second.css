@@ -1,0 +1,36 @@
+.display{
+  height: 100px;
+  width: 500px;
+  background-color: black;
+  color:white;
+  font-size: 2rem;
+  font-family: 'Orbitron', sans-serif;
+  box-shadow: 10px  20px 8px 10px;
+}
+.calc{
+  height: 500px;
+  width: 600px;
+  background-color: grey;
+  border: solid 10px black;
+  border-bottom-right-radius: 10px 120px;
+  overflow: hidden;
+}
+.bottom{
+  background-color: blue;
+  width:600px;
+  height: 300px;
+  position: relative;
+  top:200px;
+
+
+}
+.grey{
+  background-color: red;
+  width: 530px;
+  height: 420px;
+  border-radius: 50%;
+  position: relative;
+  left:25px;
+  top: -20px;
+  background-color: grey;
+}

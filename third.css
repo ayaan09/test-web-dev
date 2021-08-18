@@ -1,0 +1,73 @@
+body{
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  background-color: #E0C097;
+}
+.me{
+  flex:0.5;
+}
+.top{
+  width: 688px;
+  height: 80px;
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 15px 10px;;
+}
+.top-of-console{
+  width: 708px;
+  height: 80px;
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 15px 10px;;
+}
+.top> button{
+  position: relative;
+  margin-left: 270px;
+  margin-top: 20px;
+  background-color: #0556F3;
+  color: white;
+  border: none;
+  width: 100px;
+  height: 40px;
+}
+
+.top> button:hover{
+  background-color: blue;
+  cursor: pointer;
+}
+.form{
+  position: relative;
+  padding: 3px;
+  width: 700px;
+  height: 800px;
+  font-size: 1.5rem;
+  font-family: 'Inconsolata', monospace;
+  font-weight:600;
+  background-color: #F5F5F5
+}
+textarea{
+  resize: none;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+.flex-2{
+    flex: 0.5;
+}
+.console{
+  /* margin-left: -57px; */
+  border-left: solid 3px gray;
+  font-size: 1.5rem;
+  padding: 15px;
+  background-color: #F5F5F5;
+  height: 800px;
+  width: 695px;
+  font-family: 'Inconsolata', monospace;
+  font-weight:500;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
